@@ -19,6 +19,7 @@ typeset -gxTU NODE_PATH nodepath
 path=(
   $HOME/bin
   $HOME/.asdf/shims
+  $HOME/.cargo/bin
   /usr/local/{sbin,bin}
   /usr/local/heroku/{sbin,bin}
   /usr/local/share/npm/bin
