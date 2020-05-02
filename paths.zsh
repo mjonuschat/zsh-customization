@@ -18,9 +18,9 @@ typeset -gxTU NODE_PATH nodepath
 # Set the list of directories that zsh searches for commands.
 path=(
   $HOME/bin
+  $HOME/.asdf/shims
   /usr/local/{sbin,bin}
   /usr/local/heroku/{sbin,bin}
-  /usr/local/opt/rbenv/shims
   /usr/local/share/npm/bin
   /opt/{sbin,bin}
   /opt/local/{sbin,bin}
