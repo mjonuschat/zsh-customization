@@ -1,2 +1,3 @@
-eval "$(direnv hook zsh)"
-
+if [[ -x $(brew --prefix)/bin/direnv ]]; then
+  eval "$(direnv hook zsh)"
+fi

@@ -1,3 +1,3 @@
-if [[ -f /usr/local/bin/starship ]]; then
+if [[ -x $(brew --prefix)/bin/starship ]]; then
   eval "$(starship init zsh)"
 fi

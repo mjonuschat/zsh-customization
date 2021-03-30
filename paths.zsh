@@ -20,6 +20,7 @@ path=(
   $HOME/bin
   $HOME/.asdf/shims
   $HOME/.cargo/bin
+  /opt/homebrew/{sbin,bin}
   /usr/local/{sbin,bin}
   /usr/local/heroku/{sbin,bin}
   /usr/local/share/npm/bin
@@ -43,6 +44,7 @@ cdpath=($^cdpath(N-/))
 
 # Set the list of directories that info searches for manuals.
 infopath=(
+  /opt/homebrew/share/info
   /usr/local/info
   /usr/local/share/info
   /usr/share/info
@@ -51,6 +53,7 @@ infopath=($^infopath(N-/))
 
 # Set the list of directories that man searches for manuals.
 manpath=(
+  /opt/homebrew/share/man
   /usr/local/man
   /usr/local/share/man
   /usr/share/man
