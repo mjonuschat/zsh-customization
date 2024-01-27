@@ -17,6 +17,7 @@ typeset -gxTU NODE_PATH nodepath
 
 # Set the list of directories that zsh searches for commands.
 path=(
+  /Applications/IntelliJ\ IDEA.app/Contents/MacOS
   $HOME/bin
   $HOME/.asdf/shims
   $HOME/.cargo/bin
